@@ -7,7 +7,7 @@
     ../../nixos/modules
   ];
 
-  environment.systemPackages = [ pkgs.home-manager ];
+  environment.systemPackages = with pkgs; [ home-manager ];
 
   networking.hostName = hostname;
 
