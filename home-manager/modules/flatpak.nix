@@ -2,7 +2,7 @@
    services.flatpak = {
        enabled = true;
        packages = [
-           "org.VinegarHQ.Sober"
+           { flatpakref = "https://sober.vinegarhq.org/sober.flatpakref" };
        ];
    }
 }
