@@ -17,6 +17,6 @@
     ./waybar
     ./wofi
     ./zathura.nix
-    ./fish.nix
+    ./zsh.nix
   ];
 }
