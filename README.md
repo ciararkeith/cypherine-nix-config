@@ -23,15 +23,15 @@ To get started with this setup, follow these steps:
 2. **Clone the Repository**:
 
 	```bash
-    git clone https://github.com/Andrey0189/nixos-config-reborn
-    cd nixos-config-reborn
+    git clone https://github.com/ciara-robin/cypherine-nix-config
+    cd cypherine-nix-config
     ```
 
 3. **Copy one of the hosts configuration to set up your own**:
 
     ```bash
     cd hosts
-    cp -r slim3 <your_hostname>
+    cp -r nixos <your_hostname>
     cd <your_hostname>
     ```
 
