@@ -9,6 +9,8 @@
     imv
     mpv
     vesktop
+    obsidian
+    teams-for-linux
     pavucontrol
 
     # CLI utils
