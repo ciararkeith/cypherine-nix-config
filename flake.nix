@@ -22,7 +22,7 @@
     };
   };
 
-  outputs = { self, nixpkgs, home-manager, ... }@inputs: let
+  outputs = { self, nixpkgs, home-manager, nix-flatpak, ... }@inputs: let
     system = "x86_64-linux";
     homeStateVersion = "24.11";
     user = "ciara";
@@ -38,7 +38,9 @@
       };
 
       modules = [
+        nix-flatpak.nixosModules.nix-flatpak
         ./hosts/${hostname}/configuration.nix
+        
       ];
     };
 
