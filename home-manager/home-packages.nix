@@ -8,12 +8,8 @@
     anki
     imv
     mpv
-    obs-studio
-    obsidian
-    pavucontrol
-    teams-for-linux
-    telegram-desktop
     vesktop
+    pavucontrol
 
     # CLI utils
     bc
