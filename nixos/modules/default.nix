@@ -15,5 +15,6 @@
     ./user.nix
     ./zram.nix
     ./flatpak.nix
+    ./containers.nix
   ];
 }
