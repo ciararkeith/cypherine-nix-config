@@ -15,11 +15,10 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    # COMING SOON...
-    #nixvim = {
-    #  url = "github:nix-community/nixvim";
-    #  inputs.nixpkgs.follows = "nixpkgs";
-    #};
+    nixvim = {
+      url = "github:nix-community/nixvim";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = { self, nixpkgs, home-manager, ... }@inputs: let
@@ -27,7 +26,6 @@
     homeStateVersion = "24.11";
     user = "ciara";
     hosts = [
-      { hostname = "slim3"; stateVersion = "24.05"; }
       { hostname = "nix"; stateVersion = "24.11"; }
     ];
 
