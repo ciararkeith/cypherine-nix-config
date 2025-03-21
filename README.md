@@ -13,7 +13,7 @@ You can still find my old configuration [here](https://github.com/Andrey0189/nix
 - 🪟 **Hyprland + Waybar**: 10/10 window compositor on Wayland.
 - 🏠 **Home Manager Integration**: lots of stuff configured.
 - 🧇 **Tmux**: with my own hotkeys.
-- 🌟 **Zsh + starship**: Efficient shell setup with lots of aliases.
+- 🌟 **fish + starship**: Efficient shell setup with lots of aliases.
 
 ## 🚀 Installation
 
