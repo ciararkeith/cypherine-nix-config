@@ -12,6 +12,10 @@
     obsidian
     teams-for-linux
     pavucontrol
+    alacritty
+    wofi
+    kitty
+    dolphin
 
     # CLI utils
     bc
