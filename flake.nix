@@ -2,7 +2,7 @@
   description = "My system configuration";
 
   inputs = {
-    nix-flatpak.url = "github:gmodena/nix-flatpak";
+    #nix-flatpak.url = "github:gmodena/nix-flatpak";
 
     nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
 
