@@ -2,7 +2,7 @@
   description = "My system configuration";
 
   inputs = {
-    nix-flatpak.url = "github:gmodena/nix-flatpak"
+    nix-flatpak.url = "github:gmodena/nix-flatpak";
 
     nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
 
@@ -28,7 +28,6 @@
     user = "ciara";
     hosts = [
       { hostname = "nixos"; stateVersion = "24.11"; }
-      { hostname = "x220"; stateVersion = "24.05"; }
     ];
 
     makeSystem = { hostname, stateVersion }: nixpkgs.lib.nixosSystem {
